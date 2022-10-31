@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrap {
+  background-color: #fff;
+  width: 1440px;
+  height: 1158px;
+  top: 253px;
+  left: -1148px;  
+}
+.profile h2 {
+  display: none;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 56px;
+  /* width: 1216px;
+  height: 774px;  */
+}
+.content {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding: 0px;
+ gap: 24px;
+ padding-left: 32px;
+}
+
+.buttons a {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #101828;
+  list-style: none;
+  text-decoration: none;
+}
+.buttons {
+  width: 1152px;
+ height: 142px;
+}
+#btn_zuri {
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 24px 32px;
+background: #EAECF0;
+border: 1px solid #EAECF0;
+border-radius: 8px;
+margin: 24px;
+}
+#books {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 32px;
+  background: #EAECF0;
+  border: 1px solid #EAECF0;
+  border-radius: 8px;
+  margin: 24px;
+}
+#book_python {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 32px;
+  background: #EAECF0;
+  border: 1px solid #EAECF0;
+  border-radius: 8px;
+  margin: 24px;
+}
+#pitch {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 32px;
+  background: #EAECF0;
+  border: 1px solid #EAECF0;
+  border-radius: 8px;
+  margin: 24px;
+}
+#book_design {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 32px;
+  background: #EAECF0;
+  border: 1px solid #EAECF0;
+  border-radius: 8px;
+  margin: 24px;
+}
+
+@media (max-width: 375px) {
+  .wrap {
+    position: relative;
+    width: 375px;
+    height: 1088px;
+    overflow-y: scroll;
+    top: 253px;
+    left: 364px;
+    background: #FFFFFF;
+  }
+  .buttons {
+    width: 343px;
+   height: 68px;
+  }
+  
+}
